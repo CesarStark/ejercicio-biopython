@@ -32,3 +32,15 @@ def summarize_contents(filename):
 if _name_ == "_main_":
 	resultados = summarize_contents(filename)
 	print(resultados)
+#Secuencia ingresada
+	CadenaNum1 = input("Agregar secuencia de DNA")
+	CadenaNum2 = input("Agregar secuencia complementaria de ADN")
+	Cadena1 = S1(CadenaNum1)
+	Cadena2 = S2(CadenaNum2)
+#Funcion definida
+def concatenate_and_get_reverse_of_complement(Cadena1, Cadena2):
+	concatenate = Cadena1 + Cadena2 #concatenacion de las cadenas
+	inverse = concatenate.reverse_complement() # Cadena complementaria
+	return (concatenate.reverse_complement())
+	producto = concatenate_and_get_reverse_of_complement(Cadena1, Cadena2)
+	print(producto)
