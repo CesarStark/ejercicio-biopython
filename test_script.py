@@ -49,3 +49,4 @@ def test:concatenate_get_reverse_of_complement(self):
 	Cadena5 = String("AAAGCGATAG")
 	Complementaria =concatenate_and_get_reverse_of_complement("ATGTACGTGA")
 	self.assertEqual(Cadena5,complementaria)
+ 
